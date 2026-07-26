@@ -2,7 +2,6 @@ import {Router} from "express";
 import { getMe, registerUser, loginUser } from "../controllers/authController.js";
 import { protect } from "../middlewares/auth.js";
 
-
 const authRouter = Router();
 
 authRouter.post("/register", registerUser);
