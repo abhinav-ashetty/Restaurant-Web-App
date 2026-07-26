@@ -40,4 +40,4 @@ BookingSchema.pre("save", function(){
     }
 })
 
-export const Booking = model<IBooking>('User', BookingSchema)
+export const Booking = model<IBooking>('Booking', BookingSchema)
